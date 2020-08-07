@@ -8,7 +8,6 @@ using System.Windows.Forms;
 
 namespace Duplicate_Finder
 {
-    //salam khobid?
 
     public partial class Form1 : Form
     {
