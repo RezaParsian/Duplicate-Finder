@@ -36,8 +36,8 @@
             // btncheck
             // 
             this.btncheck.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btncheck.Location = new System.Drawing.Point(293, 228);
-            this.btncheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncheck.Location = new System.Drawing.Point(9, 226);
+            this.btncheck.Margin = new System.Windows.Forms.Padding(4);
             this.btncheck.Name = "btncheck";
             this.btncheck.Size = new System.Drawing.Size(172, 28);
             this.btncheck.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.lstfiles.FormattingEnabled = true;
             this.lstfiles.ItemHeight = 16;
             this.lstfiles.Location = new System.Drawing.Point(9, 10);
-            this.lstfiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstfiles.Margin = new System.Windows.Forms.Padding(4);
             this.lstfiles.Name = "lstfiles";
             this.lstfiles.Size = new System.Drawing.Size(456, 100);
             this.lstfiles.TabIndex = 1;
@@ -76,7 +76,7 @@
             this.Controls.Add(this.lstfiles);
             this.Controls.Add(this.btncheck);
             this.Font = new System.Drawing.Font("Neon 80s", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Duplicate_Finder";
             this.Load += new System.EventHandler(this.Form1_Load);

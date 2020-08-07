@@ -8,6 +8,8 @@ using System.Windows.Forms;
 
 namespace Duplicate_Finder
 {
+    //salam khobid?
+
     public partial class Form1 : Form
     {
         List<string> items = new List<string>();
@@ -23,17 +25,17 @@ namespace Duplicate_Finder
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        void Form1_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
         }
 
-        private string[] FethFiles(string dir)
+        string[] FethFiles(string dir)
         {
             return Directory.GetFiles(dir);
         }
 
-        private string GetFileMD5(string file_address)
+        string GetFileMD5(string file_address)
         {
             string result = "";
 
@@ -46,7 +48,7 @@ namespace Duplicate_Finder
             return result;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void button1_Click(object sender, EventArgs e)
         {
             string dir = @"E:\Phone\Pic";
 
@@ -77,12 +79,12 @@ namespace Duplicate_Finder
 
         }
 
-        private void lstfiles_DoubleClick(object sender, EventArgs e)
+        void lstfiles_DoubleClick(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(lstfiles.SelectedItem.ToString());
         }
 
-        private void lstdup_DoubleClick(object sender, EventArgs e)
+        void lstdup_DoubleClick(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(lstdup.SelectedItem.ToString());
         }
